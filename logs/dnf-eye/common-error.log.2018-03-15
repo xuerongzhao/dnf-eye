@@ -1,0 +1,30 @@
+2018-03-15 16:06:34,049 ERROR 8957 [-/127.0.0.1/-/17ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/app/extend/context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/app/extend/context.js:77:33)
+    at Object.ensureCsrfSecret (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/app/extend/context.js:88:13)
+    at csrf (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-session/index.js:41:13)
+
+pid: 8957
+hostname: CyrusdeMacBook-Pro.local
+
+2018-03-15 16:07:46,424 ERROR 8988 [-/127.0.0.1/-/12ms GET /] nodejs.TypeError: this.config.keys.split is not a function
+    at Application.get keys [as keys] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/lib/application.js:255:37)
+    at Object.get cookies [as cookies] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/app/extend/context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/app/extend/context.js:77:33)
+    at Object.ensureCsrfSecret (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/app/extend/context.js:88:13)
+    at csrf (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-session/index.js:41:13)
+
+pid: 8988
+hostname: CyrusdeMacBook-Pro.local
+

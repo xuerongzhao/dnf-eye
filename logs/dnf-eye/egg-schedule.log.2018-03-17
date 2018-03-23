@@ -1,0 +1,10 @@
+2018-03-18 00:00:02,677 INFO 11027 [1521302402604744412725785804] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2018-03-18 00:00:02,711 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-19 00:00:00.000
+2018-03-18 00:00:02,733 INFO 11028 [1521302402604744412725785804] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2018-03-18 00:00:02,746 INFO 11028 [1521302402604744412725785804] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2018-03-18 00:00:02,766 INFO 11028 [1521302402604744412725785804] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 20ms
+2018-03-18 00:00:03,501 INFO 11028 [1521302403497744413578263364] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2018-03-18 00:00:03,501 INFO 11028 [1521302403497744413578263364] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2018-03-18 00:00:03,504 INFO 11028 [1521302403497744413578263364] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 3ms
+2018-03-18 00:00:03,498 INFO 11027 [1521302403497744413578263364] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2018-03-18 00:00:03,501 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-19 00:00:01.000

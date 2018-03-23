@@ -1,0 +1,38 @@
+2018-03-15 16:06:19,690 INFO 8956 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:06:19,691 INFO 8956 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:07:43,772 INFO 8987 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:07:43,773 INFO 8987 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:08:18,062 INFO 9008 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:08:18,063 INFO 9008 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:12:55,244 INFO 9068 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:12:55,245 INFO 9068 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:20:04,079 INFO 9169 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:20:04,080 INFO 9169 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:21:43,310 INFO 9202 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:21:43,312 INFO 9202 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:28:43,171 INFO 9294 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:28:43,173 INFO 9294 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:30:41,476 INFO 9348 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:30:41,476 INFO 9348 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:31:33,050 INFO 9378 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:31:33,051 INFO 9378 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:32:01,731 INFO 9395 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:32:01,731 INFO 9395 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:41:53,095 INFO 9931 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:41:53,096 INFO 9931 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:42:32,681 INFO 9954 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:42:32,682 INFO 9954 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 16:45:18,539 INFO 10031 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 16:45:18,540 INFO 10031 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-15 18:30:23,228 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-16 00:00:00.000
+2018-03-15 18:30:23,229 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-16 00:00:01.000
+2018-03-16 00:00:00,785 INFO 11028 [1521129600665571615834767575] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2018-03-16 00:00:00,798 INFO 11028 [1521129600665571615834767575] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2018-03-16 00:00:00,831 INFO 11028 [1521129600665571615834767575] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 30ms
+2018-03-16 00:00:00,676 INFO 11027 [1521129600665571615834767575] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2018-03-16 00:00:00,703 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-17 00:00:00.000
+2018-03-16 00:00:01,630 INFO 11028 [1521129601629571616797350797] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2018-03-16 00:00:01,631 INFO 11028 [1521129601629571616797350797] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2018-03-16 00:00:01,636 INFO 11028 [1521129601629571616797350797] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms
+2018-03-16 00:00:01,629 INFO 11027 [1521129601629571616797350797] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2018-03-16 00:00:01,632 INFO 11027 [Timer] /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-17 00:00:01.000
