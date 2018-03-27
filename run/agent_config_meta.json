@@ -141,17 +141,39 @@
     "main": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
     "scripts": {
       "test": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
-      "dev": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
+      "dev": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "build": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "watch": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
     },
     "author": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
     "license": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
     "dependencies": {
       "cheerio": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "echarts": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
       "egg": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
-      "jquery": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
+      "egg-cors": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "jquery": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "vue": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
+      "babel-core": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "less": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "vue-loader": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js"
     }
   },
   "baseDir": "/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg/config/config.default.js",

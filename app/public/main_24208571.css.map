@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/css/base.less"],"names":[],"mappings":"AAAA;;EACI;EACA;EACA;EACA;CAEH","file":"main_24208571.css","sourcesContent":["html,body{\n    margin: 0;\n    font-size: 0;\n    padding: 0;\n    border: 0;\n}"],"sourceRoot":""}

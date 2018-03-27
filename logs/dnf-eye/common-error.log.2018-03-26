@@ -1,0 +1,9 @@
+2018-03-23 11:10:25,880 ERROR 2102 [-/127.0.0.1/-/1839ms GET /] nodejs.TypeError: Cannot set property '跨三A' of undefined
+    at HomeController.serializedData (/Users/cyrus/Documents/Code/egg-project/dnf-eye/app/controller/home.js:53:43)
+    at HomeController.index (/Users/cyrus/Documents/Code/egg-project/dnf-eye/app/controller/home.js:86:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2102
+hostname: CyrusdeMacBook-Pro.local
+

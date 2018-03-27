@@ -65,6 +65,8 @@ class HomeController extends Controller{
     }
     async index(){
         let requestQueue = [];
+        netList = this.ctx.request.body.checkedNet || netList;
+        kList = this.ctx.request.body.checkedK || kList;
         for(let i in netList){
             let _net = netList[i];
             let _config = config[_net];

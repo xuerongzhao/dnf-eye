@@ -16,15 +16,14 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "queryName": "_csrf"
       },
       "xframe": {
         "enable": true,
@@ -174,17 +173,40 @@
       "main": "index.js",
       "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "build": "webpack --config webpack.config.js",
+        "watch": "webpack --watch --config webpack.config.js --progress"
       },
       "author": "",
       "license": "ISC",
       "dependencies": {
         "cheerio": "^1.0.0-rc.2",
+        "echarts": "^4.0.4",
         "egg": "^2.4.1",
-        "jquery": "^3.3.1"
+        "egg-cors": "^2.0.0",
+        "element-ui": "^2.2.2",
+        "jquery": "^3.3.1",
+        "vue": "^2.5.16"
       },
       "devDependencies": {
-        "egg-bin": "^4.3.7"
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "css-loader": "^0.28.11",
+        "egg-bin": "^4.3.7",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^1.1.11",
+        "html-webpack-plugin": "^3.1.0",
+        "less": "^3.0.1",
+        "less-loader": "^4.1.0",
+        "style-loader": "^0.20.3",
+        "uglifyjs-webpack-plugin": "^1.2.4",
+        "url-loader": "^1.0.1",
+        "vue-loader": "^14.2.2",
+        "vue-template-compiler": "^2.5.16",
+        "webpack": "^4.2.0",
+        "webpack-cli": "^2.0.13",
+        "webpack-dev-server": "^3.1.1"
       }
     },
     "baseDir": "/Users/cyrus/Documents/Code/egg-project/dnf-eye",
