@@ -82,3 +82,48 @@ body: '------WebKitFormBoundaryPQJe2dtXIKIwC6z3\r\nContent-Disposition: form-dat
 pid: 4044
 hostname: CyrusdeMacBook-Pro.local
 
+2018-03-27 14:49:26,186 WARN 4264 [-/127.0.0.1/-/3ms OPTIONS /data] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa/lib/context.js:93:11)
+    at notAllow (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:16)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at overrideMethod (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-override/index.js:13:70)
+message: 'Method Not Allowed'
+pid: 4264
+hostname: CyrusdeMacBook-Pro.local
+
+2018-03-27 14:50:36,726 WARN 4264 [-/127.0.0.1/-/1ms OPTIONS /data] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa/lib/context.js:93:11)
+    at notAllow (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:16)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at overrideMethod (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-override/index.js:13:70)
+message: 'Method Not Allowed'
+pid: 4264
+hostname: CyrusdeMacBook-Pro.local
+
+2018-03-27 14:52:28,179 WARN 4264 [-/127.0.0.1/-/1ms OPTIONS /data] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa/lib/context.js:93:11)
+    at notAllow (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:16)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-compose/index.js:43:18)
+    at overrideMethod (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/koa-override/index.js:13:70)
+message: 'Method Not Allowed'
+pid: 4264
+hostname: CyrusdeMacBook-Pro.local
+

@@ -58,7 +58,7 @@ export default {
     getData(){
       let data = this.form;
       data.checkedK = data.checkedK.sort();
-      fetch("http://127.0.0.1:7001/data", {
+      fetch("/data", {
         protocol: "http:",
         method: "POST",
         headers: {
