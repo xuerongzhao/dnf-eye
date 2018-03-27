@@ -1,9 +1,0 @@
-2018-03-19 16:28:04,444 ERROR 11027 nodejs.ClusterClientNoResponseError: client no response in 159072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/cluster-client/lib/leader.js:73:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 11027
-hostname: CyrusdeMacBook-Pro.local
-
