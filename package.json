@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "egg-bin dev",
     "build": "webpack --config webpack.config.js",
-    "watch": "webpack --watch --config webpack.config.js --progress"
+    "watch": "webpack --watch --config webpack.config.js --progress",
+    "start": "egg-scripts start --daemon --title=egg-server-showcase",
+    "stop": "egg-scripts stop"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,7 @@
     "echarts": "^4.0.4",
     "egg": "^2.4.1",
     "egg-cors": "^2.0.0",
+    "egg-scripts": "^2.5.1",
     "element-ui": "^2.2.2",
     "jquery": "^3.3.1",
     "vue": "^2.5.16"
