@@ -3,7 +3,7 @@
         <header class="header">
             <span class="title">DNF火眼</span>
         </header>
-        <main>
+        <main v-loading="loading">
             <el-form ref="form" :model="form" class="bb" label-width="80px">
                 <el-form-item label="网站名称">
                     <el-checkbox-group v-model="form.checkedNet" :min="1">
@@ -17,6 +17,7 @@
                 </el-form-item>
                 <el-form-item>
                   <el-button type="primary" @click="getData">查询</el-button>
+                  <el-button @click="getData">刷新</el-button>
                 </el-form-item>
             </el-form>
             <div id="stage"></div>
@@ -28,6 +29,7 @@ var echarts = require('echarts');
 export default {
   data() {
     return {
+      loading : true,
       netList : [
         {name : "uu898",value : "uu898"}
       ],
@@ -42,7 +44,7 @@ export default {
       ],
       form: {
         checkedNet : ['uu898'],
-        checkedK : ['k3a','k5']
+        checkedK : ['k1','k2','k3a','k3b','k5','k6']
       },
       dataDict : {},
       myChart : ''
@@ -58,6 +60,7 @@ export default {
     getData(){
       let data = this.form;
       data.checkedK = data.checkedK.sort();
+      this.loading = true;
       fetch("/data", {
         protocol: "http:",
         method: "POST",
@@ -67,6 +70,7 @@ export default {
         body : JSON.stringify(data)
       })
       .then(res => {
+        this.loading = false;
         console.log(res.body);
         return res.json();
       })
