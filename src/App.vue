@@ -26,12 +26,15 @@
 </template>
 <script>
 var echarts = require('echarts');
+const colorList = ['#ecbf5d', '#dc4b47','#d06b98', '#6c4470', '#3e3351']
 export default {
   data() {
     return {
       loading : true,
       netList : [
-        {name : "uu898",value : "uu898"}
+        {name : "uu898",value : "uu898"},
+        {name : "5173",value : "5173"},
+        {name : "dd373",value : "dd373"}
       ],
       kList : [
         {name : "跨1",value : "k1"},
@@ -43,8 +46,8 @@ export default {
         {name : "跨6",value : "k6"}
       ],
       form: {
-        checkedNet : ['uu898'],
-        checkedK : ['k1','k2','k3a','k3b','k5','k6']
+        checkedNet : ['uu898','5173','dd373'],
+        checkedK : ['k1','k2','k3a','k3b','k4','k5','k6']
       },
       dataDict : {},
       myChart : ''
@@ -147,7 +150,7 @@ export default {
             name: serie.name,
             type: 'bar',
             itemStyle:{
-                normal:{color:'#01949B'},
+                normal:{color: colorList[i]},
             },
             markPoint : {
                     data : [

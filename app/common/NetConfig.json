@@ -1,40 +1,134 @@
 {
     "uu898" : {
-        "baseUrl" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1",
         "k1" : {
-            "area" : "2322",
-            "srv" : "24986",
-            "name" : "跨一"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2322&srv=24986",
+            "opt" : {
+                "name" : "跨一"                
+            }
         },
         "k2" : {
-            "area" : "2326",
-            "srv" : "25010",
-            "name" : "跨二"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2326&srv=25010",
+            "opt" : {
+                "name" : "跨二"                
+            }
         },
         "k3a" : {
-            "area" : "2324",
-            "srv" : "25055",
-            "name" : "跨三A"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2324&srv=25055",
+            "opt" : {
+                "name" : "跨三A"                
+            }
         },
         "k3b" : {
-            "area" : "2338",
-            "srv" : "25060",
-            "name" : "跨三B"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2338&srv=25060",
+            "opt" : {
+                "name" : "跨三B"                
+            }
         },
         "k4" : {
-            "area" : "2331",
-            "srv" : "25021",
-            "name" : "跨四"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2331&srv=25021",
+            "opt" : {
+                "name" : "跨四"                
+            }
         },
         "k5" : {
-            "area" : "2331",
-            "srv" : "25018",
-            "name" : "跨五"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2331&srv=25018",
+            "opt" : {
+                "name" : "跨五"                
+            }
         },
         "k6" : {
-            "area" : "2323",
-            "srv" : "25076",
-            "name" : "跨六"
+            "url" : "https://www.uu898.com/newTrade.aspx?gm=95&c=-3&o=5&sa=0&p=1&area=2323&srv=25076",
+            "opt" : {
+                "name" : "跨六"                
+            }
+        }
+    },
+    "5173" : {
+        "k1" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-f10pkw-uokzto-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨一"                
+            }
+        },
+        "k2" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-kt0l3t-qrw5cb-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨二"                
+            }
+        },
+        "k3a" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-xsiupy-deer3j-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨三A"                
+            }
+        },
+        "k3b" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-riodz0-p1zmcp-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨三B"                
+            }
+        },
+        "k4" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-43yfk3-nypj3u-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨四"                
+            }
+        },
+        "k5" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-43yfk3-ctrpel-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨五"                
+            }
+        },
+        "k6" : {
+            "url" : "http://s.5173.com/dnf-xptjnl-joq4bd-dlrujw-0-bx1xiv-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
+            "opt" : {
+                "name" : "跨六"                
+            }
+        }
+    },
+    "dd373" : {
+        "k1" : {
+            "url" : "https://www.dd373.com/s/rbg22w-br53m0-d49m0f-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨一"                
+            }
+        },
+        "k2" : {
+            "url" : "https://www.dd373.com/s/rbg22w-45vnhx-45vnhx-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨二"                
+            }
+        },
+        "k3a" : {
+            "url" : "https://www.dd373.com/s/rbg22w-w95dvc-tkwb6e-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨三A"                
+            }
+        },
+        "k3b" : {
+            "url" : "https://www.dd373.com/s/rbg22w-wep382-v3jjvj-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨三B"                
+            }
+        },
+        "k4" : {
+            "url" : "https://www.dd373.com/s/rbg22w-x9kjbs-sw3dxw-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨四"                
+            }
+        },
+        "k5" : {
+            "url" : "https://www.dd373.com/s/rbg22w-x9kjbs-wwf11b-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨五"                
+            }
+        },
+        "k6" : {
+            "url" : "https://www.dd373.com/s/rbg22w-50s4nq-4mnka8-0-0-0-42hcun-0-0-0-0-0-0-0-0.html",
+            "opt" : {
+                "name" : "跨六"                
+            }
         }
     }
 }

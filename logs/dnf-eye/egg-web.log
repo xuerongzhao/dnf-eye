@@ -137,3 +137,207 @@
 2018-03-27 14:18:25,962 INFO 4264 [egg-security] use dta middleware
 2018-03-27 14:18:25,962 INFO 4264 [egg-security] compose 6 middlewares into one security middleware
 2018-03-27 14:18:26,442 INFO 4264 [egg-watcher:app] watcher start success
+2018-03-27 16:40:15,152 INFO 6627 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:40:15,236 INFO 6627 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:40:15,236 INFO 6627 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:40:15,335 INFO 6627 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:40:15,343 INFO 6627 [egg-security] use methodnoallow middleware
+2018-03-27 16:40:15,344 INFO 6627 [egg-security] use noopen middleware
+2018-03-27 16:40:15,345 INFO 6627 [egg-security] use nosniff middleware
+2018-03-27 16:40:15,347 INFO 6627 [egg-security] use xssProtection middleware
+2018-03-27 16:40:15,348 INFO 6627 [egg-security] use xframe middleware
+2018-03-27 16:40:15,350 INFO 6627 [egg-security] use dta middleware
+2018-03-27 16:40:15,350 INFO 6627 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:40:15,679 INFO 6627 [egg-watcher:app] watcher start success
+2018-03-27 16:40:34,365 INFO 6630 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:40:34,496 INFO 6630 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:40:34,496 INFO 6630 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:40:34,618 INFO 6630 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:40:34,624 INFO 6630 [egg-security] use methodnoallow middleware
+2018-03-27 16:40:34,625 INFO 6630 [egg-security] use noopen middleware
+2018-03-27 16:40:34,626 INFO 6630 [egg-security] use nosniff middleware
+2018-03-27 16:40:34,628 INFO 6630 [egg-security] use xssProtection middleware
+2018-03-27 16:40:34,629 INFO 6630 [egg-security] use xframe middleware
+2018-03-27 16:40:34,631 INFO 6630 [egg-security] use dta middleware
+2018-03-27 16:40:34,631 INFO 6630 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:40:34,970 INFO 6630 [egg-watcher:app] watcher start success
+2018-03-27 16:42:22,743 INFO 6653 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:42:22,848 INFO 6653 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:42:22,848 INFO 6653 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:42:22,972 INFO 6653 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:42:22,977 INFO 6653 [egg-security] use methodnoallow middleware
+2018-03-27 16:42:22,979 INFO 6653 [egg-security] use noopen middleware
+2018-03-27 16:42:22,979 INFO 6653 [egg-security] use nosniff middleware
+2018-03-27 16:42:22,980 INFO 6653 [egg-security] use xssProtection middleware
+2018-03-27 16:42:22,981 INFO 6653 [egg-security] use xframe middleware
+2018-03-27 16:42:22,982 INFO 6653 [egg-security] use dta middleware
+2018-03-27 16:42:22,982 INFO 6653 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:42:23,287 INFO 6653 [egg-watcher:app] watcher start success
+2018-03-27 16:43:46,131 INFO 6672 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:43:46,184 INFO 6672 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:43:46,184 INFO 6672 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:43:46,252 INFO 6672 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:43:46,256 INFO 6672 [egg-security] use methodnoallow middleware
+2018-03-27 16:43:46,257 INFO 6672 [egg-security] use noopen middleware
+2018-03-27 16:43:46,258 INFO 6672 [egg-security] use nosniff middleware
+2018-03-27 16:43:46,259 INFO 6672 [egg-security] use xssProtection middleware
+2018-03-27 16:43:46,259 INFO 6672 [egg-security] use xframe middleware
+2018-03-27 16:43:46,260 INFO 6672 [egg-security] use dta middleware
+2018-03-27 16:43:46,260 INFO 6672 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:43:46,555 INFO 6672 [egg-watcher:app] watcher start success
+2018-03-27 16:45:03,530 INFO 6696 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:45:03,590 INFO 6696 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:45:03,590 INFO 6696 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:45:03,654 INFO 6696 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:45:03,658 INFO 6696 [egg-security] use methodnoallow middleware
+2018-03-27 16:45:03,659 INFO 6696 [egg-security] use noopen middleware
+2018-03-27 16:45:03,659 INFO 6696 [egg-security] use nosniff middleware
+2018-03-27 16:45:03,662 INFO 6696 [egg-security] use xssProtection middleware
+2018-03-27 16:45:03,662 INFO 6696 [egg-security] use xframe middleware
+2018-03-27 16:45:03,663 INFO 6696 [egg-security] use dta middleware
+2018-03-27 16:45:03,663 INFO 6696 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:45:03,998 INFO 6696 [egg-watcher:app] watcher start success
+2018-03-27 16:46:36,343 INFO 6711 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:46:36,438 INFO 6711 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:46:36,438 INFO 6711 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:46:36,532 INFO 6711 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:46:36,539 INFO 6711 [egg-security] use methodnoallow middleware
+2018-03-27 16:46:36,540 INFO 6711 [egg-security] use noopen middleware
+2018-03-27 16:46:36,541 INFO 6711 [egg-security] use nosniff middleware
+2018-03-27 16:46:36,542 INFO 6711 [egg-security] use xssProtection middleware
+2018-03-27 16:46:36,543 INFO 6711 [egg-security] use xframe middleware
+2018-03-27 16:46:36,544 INFO 6711 [egg-security] use dta middleware
+2018-03-27 16:46:36,544 INFO 6711 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:46:36,872 INFO 6711 [egg-watcher:app] watcher start success
+2018-03-27 16:51:01,692 INFO 6759 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:51:01,771 INFO 6759 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:51:01,771 INFO 6759 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:51:01,863 INFO 6759 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:51:01,869 INFO 6759 [egg-security] use methodnoallow middleware
+2018-03-27 16:51:01,870 INFO 6759 [egg-security] use noopen middleware
+2018-03-27 16:51:01,871 INFO 6759 [egg-security] use nosniff middleware
+2018-03-27 16:51:01,872 INFO 6759 [egg-security] use xssProtection middleware
+2018-03-27 16:51:01,872 INFO 6759 [egg-security] use xframe middleware
+2018-03-27 16:51:01,873 INFO 6759 [egg-security] use dta middleware
+2018-03-27 16:51:01,874 INFO 6759 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:51:02,171 INFO 6759 [egg-watcher:app] watcher start success
+2018-03-27 16:54:39,403 INFO 6805 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:54:39,470 INFO 6805 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:54:39,470 INFO 6805 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:54:39,531 INFO 6805 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:54:39,534 INFO 6805 [egg-security] use methodnoallow middleware
+2018-03-27 16:54:39,535 INFO 6805 [egg-security] use noopen middleware
+2018-03-27 16:54:39,535 INFO 6805 [egg-security] use nosniff middleware
+2018-03-27 16:54:39,536 INFO 6805 [egg-security] use xssProtection middleware
+2018-03-27 16:54:39,537 INFO 6805 [egg-security] use xframe middleware
+2018-03-27 16:54:39,537 INFO 6805 [egg-security] use dta middleware
+2018-03-27 16:54:39,537 INFO 6805 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:54:39,831 INFO 6805 [egg-watcher:app] watcher start success
+2018-03-27 16:57:40,659 INFO 6839 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 16:57:40,737 INFO 6839 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 16:57:40,738 INFO 6839 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 16:57:40,829 INFO 6839 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 16:57:40,839 INFO 6839 [egg-security] use methodnoallow middleware
+2018-03-27 16:57:40,840 INFO 6839 [egg-security] use noopen middleware
+2018-03-27 16:57:40,840 INFO 6839 [egg-security] use nosniff middleware
+2018-03-27 16:57:40,840 INFO 6839 [egg-security] use xssProtection middleware
+2018-03-27 16:57:40,841 INFO 6839 [egg-security] use xframe middleware
+2018-03-27 16:57:40,841 INFO 6839 [egg-security] use dta middleware
+2018-03-27 16:57:40,842 INFO 6839 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 16:57:41,174 INFO 6839 [egg-watcher:app] watcher start success
+2018-03-27 17:10:19,022 INFO 6984 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:10:19,090 INFO 6984 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:10:19,090 INFO 6984 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:10:19,169 INFO 6984 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:10:19,175 INFO 6984 [egg-security] use methodnoallow middleware
+2018-03-27 17:10:19,176 INFO 6984 [egg-security] use noopen middleware
+2018-03-27 17:10:19,177 INFO 6984 [egg-security] use nosniff middleware
+2018-03-27 17:10:19,178 INFO 6984 [egg-security] use xssProtection middleware
+2018-03-27 17:10:19,178 INFO 6984 [egg-security] use xframe middleware
+2018-03-27 17:10:19,179 INFO 6984 [egg-security] use dta middleware
+2018-03-27 17:10:19,179 INFO 6984 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:10:19,777 INFO 6984 [egg-watcher:app] watcher start success
+2018-03-27 17:13:18,466 INFO 7017 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:13:18,519 INFO 7017 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:13:18,519 INFO 7017 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:13:18,583 INFO 7017 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:13:18,586 INFO 7017 [egg-security] use methodnoallow middleware
+2018-03-27 17:13:18,587 INFO 7017 [egg-security] use noopen middleware
+2018-03-27 17:13:18,588 INFO 7017 [egg-security] use nosniff middleware
+2018-03-27 17:13:18,589 INFO 7017 [egg-security] use xssProtection middleware
+2018-03-27 17:13:18,590 INFO 7017 [egg-security] use xframe middleware
+2018-03-27 17:13:18,590 INFO 7017 [egg-security] use dta middleware
+2018-03-27 17:13:18,590 INFO 7017 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:13:18,844 INFO 7017 [egg-watcher:app] watcher start success
+2018-03-27 17:14:34,958 INFO 7034 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:14:35,013 INFO 7034 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:14:35,013 INFO 7034 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:14:35,088 INFO 7034 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:14:35,094 INFO 7034 [egg-security] use methodnoallow middleware
+2018-03-27 17:14:35,096 INFO 7034 [egg-security] use noopen middleware
+2018-03-27 17:14:35,097 INFO 7034 [egg-security] use nosniff middleware
+2018-03-27 17:14:35,098 INFO 7034 [egg-security] use xssProtection middleware
+2018-03-27 17:14:35,099 INFO 7034 [egg-security] use xframe middleware
+2018-03-27 17:14:35,100 INFO 7034 [egg-security] use dta middleware
+2018-03-27 17:14:35,100 INFO 7034 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:14:35,499 INFO 7034 [egg-watcher:app] watcher start success
+2018-03-27 17:17:03,468 INFO 7074 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:17:03,539 INFO 7074 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:17:03,539 INFO 7074 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:17:03,613 INFO 7074 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:17:03,626 INFO 7074 [egg-security] use methodnoallow middleware
+2018-03-27 17:17:03,627 INFO 7074 [egg-security] use noopen middleware
+2018-03-27 17:17:03,627 INFO 7074 [egg-security] use nosniff middleware
+2018-03-27 17:17:03,628 INFO 7074 [egg-security] use xssProtection middleware
+2018-03-27 17:17:03,629 INFO 7074 [egg-security] use xframe middleware
+2018-03-27 17:17:03,629 INFO 7074 [egg-security] use dta middleware
+2018-03-27 17:17:03,629 INFO 7074 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:17:04,053 INFO 7074 [egg-watcher:app] watcher start success
+2018-03-27 17:17:56,139 INFO 7085 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:17:56,196 INFO 7085 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:17:56,196 INFO 7085 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:17:56,269 INFO 7085 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:17:56,276 INFO 7085 [egg-security] use methodnoallow middleware
+2018-03-27 17:17:56,278 INFO 7085 [egg-security] use noopen middleware
+2018-03-27 17:17:56,279 INFO 7085 [egg-security] use nosniff middleware
+2018-03-27 17:17:56,280 INFO 7085 [egg-security] use xssProtection middleware
+2018-03-27 17:17:56,280 INFO 7085 [egg-security] use xframe middleware
+2018-03-27 17:17:56,281 INFO 7085 [egg-security] use dta middleware
+2018-03-27 17:17:56,281 INFO 7085 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:17:56,739 INFO 7085 [egg-watcher:app] watcher start success
+2018-03-27 17:18:08,659 INFO 7089 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:18:08,735 INFO 7089 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:18:08,735 INFO 7089 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:18:08,781 INFO 7089 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:18:08,784 INFO 7089 [egg-security] use methodnoallow middleware
+2018-03-27 17:18:08,784 INFO 7089 [egg-security] use noopen middleware
+2018-03-27 17:18:08,784 INFO 7089 [egg-security] use nosniff middleware
+2018-03-27 17:18:08,785 INFO 7089 [egg-security] use xssProtection middleware
+2018-03-27 17:18:08,785 INFO 7089 [egg-security] use xframe middleware
+2018-03-27 17:18:08,785 INFO 7089 [egg-security] use dta middleware
+2018-03-27 17:18:08,785 INFO 7089 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:18:08,957 INFO 7089 [egg-watcher:app] watcher start success
+2018-03-27 17:19:45,172 INFO 7107 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:19:45,233 INFO 7107 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:19:45,233 INFO 7107 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:19:45,303 INFO 7107 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:19:45,310 INFO 7107 [egg-security] use methodnoallow middleware
+2018-03-27 17:19:45,311 INFO 7107 [egg-security] use noopen middleware
+2018-03-27 17:19:45,313 INFO 7107 [egg-security] use nosniff middleware
+2018-03-27 17:19:45,315 INFO 7107 [egg-security] use xssProtection middleware
+2018-03-27 17:19:45,316 INFO 7107 [egg-security] use xframe middleware
+2018-03-27 17:19:45,317 INFO 7107 [egg-security] use dta middleware
+2018-03-27 17:19:45,317 INFO 7107 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:19:45,598 INFO 7107 [egg-watcher:app] watcher start success
+2018-03-27 17:20:06,797 INFO 7111 [egg:logger] init all loggers with options: {"dir":"/Users/cyrus/Documents/Code/egg-project/dnf-eye/logs/dnf-eye","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dnf-eye-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-27 17:20:06,851 INFO 7111 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-03-27 17:20:06,851 INFO 7111 [egg-schedule]: register schedule /Users/cyrus/Documents/Code/egg-project/dnf-eye/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-27 17:20:06,914 INFO 7111 [egg-static] starting static serve / -> /Users/cyrus/Documents/Code/egg-project/dnf-eye/app/public
+2018-03-27 17:20:06,917 INFO 7111 [egg-security] use methodnoallow middleware
+2018-03-27 17:20:06,918 INFO 7111 [egg-security] use noopen middleware
+2018-03-27 17:20:06,919 INFO 7111 [egg-security] use nosniff middleware
+2018-03-27 17:20:06,919 INFO 7111 [egg-security] use xssProtection middleware
+2018-03-27 17:20:06,920 INFO 7111 [egg-security] use xframe middleware
+2018-03-27 17:20:06,921 INFO 7111 [egg-security] use dta middleware
+2018-03-27 17:20:06,921 INFO 7111 [egg-security] compose 6 middlewares into one security middleware
+2018-03-27 17:20:07,185 INFO 7111 [egg-watcher:app] watcher start success

@@ -21,10 +21,9 @@ class HomeController extends Controller{
     };
     getRequestList(netInfo, netName){
         let urlList = [];
-        let baseUrl = netInfo.baseUrl;
         for(let i in kList){
             let _k = kList[i];
-            urlList.push(this.packageUrl(baseUrl,netInfo[_k],netName));
+            urlList.push( this.packageUrl( netInfo[_k].url, netInfo[_k].opt, netName ) );
         }
         return urlList;
     }
@@ -40,20 +39,42 @@ class HomeController extends Controller{
         let resultDict = {};
         for(let index in results){
             let result = results[index];
-            let $ = cheerio.load(result.data);
-            let items = $("#divCommodityLst ul");
+            
             let areaName = this.getUrlParameter(decodeURI(result.res.requestUrls[0]),'name');
             let netName = this.getUrlParameter(decodeURI(result.res.requestUrls[0]),'netName');
             resultDict[netName] = resultDict[netName] || {};
-            let priceList = [];
+            let priceList = this.getPrice(netName, result);
+            resultDict[netName][areaName] = this.analysisData(priceList);
+        }
+        return resultDict;
+    }
+    getPrice(netName,result){
+        let priceList = [];
+        let $ = cheerio.load(result.data);             
+        if(netName == 'uu898'){
+            let items = $("#divCommodityLst ul");
             for(let i = 0; i < items.length; ++i){
                 let temp = $("li.sp_li1 h6>span:first-child",items[i]).text();
                 let price = parseFloat(temp.split('=')[1]);
                 priceList.push(price);
             }
-            resultDict[netName][areaName] = this.analysisData(priceList);
+        }else if(netName == '5173'){
+            let items = $(".pdlist_unitprice b");
+            for(let i = 0; i < items.length; ++i){
+                let temp = $(items[i]).text();
+                let price = parseFloat(temp.split('=')[1]);
+                priceList.push(price);
+            }
+        }else if(netName == 'dd373'){
+            let items = $(".dan.left .txt p:first-child");
+            for(let i = 0; i < items.length; ++i){
+                console.log("阿斯顿发",$(items[i]).text());
+                let temp = $(items[i]).text();
+                let price = parseFloat(temp.split('=')[1]);
+                priceList.push(price);
+            }
         }
-        return resultDict;
+        return priceList;
     }
     analysisData(arrayData){
         let max = Math.max.apply(Math,arrayData);
