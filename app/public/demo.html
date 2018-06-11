@@ -79,6 +79,9 @@
     $.ajax({
       type: 'GET',
       url: 'http://pre-api.kanquanbu.com/fund/fund/getInfo',
+      headers: {
+        'x-uuid': "09ed3460-5cb0-11e8-b4d2-65e0e0f1c79a"
+      },
       dataType: 'json'
     }).done(function(result) {
       if(result && result.success){
