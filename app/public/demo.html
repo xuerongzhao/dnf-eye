@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DEMO</title>
+  <style>
+    html,body{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #409eff;
+    }
+    .contianer{ 
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .box {
+      display: inline-block;
+      width: 48%;
+      height: auto;
+      box-sizing: border-box;
+      border: 1px solid gray;
+    }
+    .line {
+      height: 48px;
+      line-height: 48px;
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+    .header {
+      font-size: 16px;
+      color: white;
+    }
+    .flex{
+      display: flex;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div class="contianer">
+    <div class="box" style="margin-right: 1%">
+      <div class="header line">
+        买盘
+      </div>
+      <div class="line flex">
+        <span style="flex: 1"></span>
+        <span style="flex: 1">买入价(USDT)</span>
+        <span style="flex: 1">买入量(BTC)</span>
+        <span style="flex: 1">累计(BTC)</span>
+      </div>
+      <div id="buy">
+      </div>
+    </div>
+    <div class="box">
+      <div class="header line">
+        卖盘
+      </div>
+      <div class="line flex">
+          <span style="flex: 1"></span>
+          <span style="flex: 1">卖出价(USDT)</span>
+          <span style="flex: 1">卖出量(BTC)</span>
+          <span style="flex: 1">累计(BTC)</span>
+        </div>
+      <div id="sell">
+
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  var sellInfo = [],buyInfo=[];
+  setInterval(function(){
+    $.ajax({
+      type: 'GET',
+      url: 'http://127.0.0.1:7001/huobi',
+      dataType: 'json'
+    }).done(function(result) {
+      if(result && result.success){
+        var data = result.data;
+        sellInfo = data.sellInfo || sellInfo;
+        buyInfo = data.buyInfo || buyInfo;
+        $('#buy').html(domFactory(JSON.parse(buyInfo)));
+        $('#sell').html(domFactory(JSON.parse(sellInfo)));
+      }
+    })
+  }, 1000)
+
+  function domFactory(data){
+    let _elStr = '';
+    data.forEach(v => {
+      _elStr += '<div class="line flex">'
+      _elStr += '<span style="flex:1">' + v.title +'</span>';
+      _elStr += '<span style="flex:1">' + v.price +'</span>';
+      _elStr += '<span style="flex:1">' + v.sum +'</span>';
+      _elStr += '<span style="flex:1">' + v.total +'</span>';
+      _elStr += '</div>'
+    });
+    
+    return _elStr;
+  }
+</script>
+</html>
