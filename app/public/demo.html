@@ -78,7 +78,7 @@
   setInterval(function(){
     $.ajax({
       type: 'GET',
-      url: 'http://127.0.0.1:7001/huobi',
+      url: 'http://pre-api.kanquanbu.com/fund/fund/getInfo',
       dataType: 'json'
     }).done(function(result) {
       if(result && result.success){

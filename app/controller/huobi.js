@@ -3,14 +3,6 @@ const cheerio = require('cheerio');
 
 class HuobiController extends Controller{
   async getInfo(){
-    // let result = await this.app.curl('https://www.huobi.br.com/zh-cn/btc_usdt/depth/?trade=exchange',{
-    //   method: 'GET',
-    //   dataType: 'text'
-    // });
-    // let el = cheerio.load(result.data);
-
-    // console.log(el);
-
     this.ctx.body = {
       data : this.app.huobiCache,
       success: true
